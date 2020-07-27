@@ -1,6 +1,7 @@
 import { Body, Controller, Delete, Get, Param, ParseIntPipe, Post } from '@nestjs/common';
 
-import { AppService, JournalEntry } from './app.service';
+import { AppService } from './app.service';
+import { JournalEntry } from "@nx-angular-nest/model";
 
 @Controller('entries')
 export class AppController {

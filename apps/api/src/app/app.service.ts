@@ -1,10 +1,5 @@
 import { Injectable } from '@nestjs/common';
-
-export interface JournalEntry {
-  title: string;
-  body: string;
-  timestamp?: Date;
-}
+import { JournalEntry } from '@nx-angular-nest/model';
 
 @Injectable()
 export class AppService {

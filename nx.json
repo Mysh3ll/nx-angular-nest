@@ -31,6 +31,9 @@
     "journal-e2e": {
       "tags": [],
       "implicitDependencies": ["journal"]
+    },
+    "model": {
+      "tags": []
     }
   }
 }

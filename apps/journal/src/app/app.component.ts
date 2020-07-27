@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
-import { DataService, JournalEntry } from './services/data.service';
+import { DataService } from './services/data.service';
+import { JournalEntry } from "@nx-angular-nest/model";
 
 @Component({
   selector: 'nx-angular-nest-root',

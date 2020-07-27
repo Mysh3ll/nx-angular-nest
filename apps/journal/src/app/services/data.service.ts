@@ -1,11 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-
-export interface JournalEntry {
-  title: string;
-  body: string;
-  timestamp?: Date;
-}
+import { JournalEntry } from "@nx-angular-nest/model";
 
 @Injectable({
   providedIn: 'root'
