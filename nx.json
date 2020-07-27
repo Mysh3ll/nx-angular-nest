@@ -24,6 +24,13 @@
   "projects": {
     "api": {
       "tags": []
+    },
+    "journal": {
+      "tags": []
+    },
+    "journal-e2e": {
+      "tags": [],
+      "implicitDependencies": ["journal"]
     }
   }
 }
